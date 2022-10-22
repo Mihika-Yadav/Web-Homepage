@@ -1,0 +1,73 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Raleway',sans-serif;
+    background: #000;
+    
+}
+.background{
+    background:url(https://cdn.wallpapersafari.com/7/94/hjQt2E.jpg) no-repeat;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    overflow: hidden;
+}
+.text .box{
+margin-top: 40vh;
+}
+.text{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.box{
+    margin-left: 15%;
+    margin-top: 16.2%;
+}
+.text h1{
+    font-size: 70px;
+    color: #fff;
+    margin-top:-10vh;
+    margin-left: 30vh;
+    margin-right: -60vh;
+}
+.text p{
+    font-size: 20px;
+    margin-left: 27vh;
+    margin-top: -5vh;
+}
+.text p a{
+    color: #fff;
+    font-weight: 900;
+}
+.form{
+    display: flex;
+    background: transparent;
+    flex-direction: column;
+    width: 250px;
+}
+input{
+    margin: 20px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline:none;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+.username .password{
+    border-bottom: 3px solid #fff;
+}
+.button{
+    background: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+.button:hover{
+    background: #52de65;
+    color: #fff;
+}
